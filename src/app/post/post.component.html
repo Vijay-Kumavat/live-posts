@@ -1,10 +1,10 @@
-<h2>Nature</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et facilis officiis dicta, atque voluptatem vitae quasi hic eligendi quam deleniti alias culpa eaque laborum maxime ullam, quo eos? Tempora, aut!</p>
+<h2>{{post?.title}}</h2>
+<p>{{post?.description}}</p>
 <img 
-    src="https://scx1.b-cdn.net/csz/news/800a/2019/2-nature.jpg" 
+    src="{{post?.imagePath}}" 
     class="img-responsive"
 />
-<p>Author: test@test.com</p>
-<p>Date: 1 Jan 2023</p>
+<p>{{post?.author}}</p>
+<p>{{post?.datetimeCreated}}</p>
 <button>edit</button> | <button>delete</button>
 <hr>
