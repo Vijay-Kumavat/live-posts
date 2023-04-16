@@ -6,5 +6,7 @@
 />
 <p>{{post?.author}}</p>
 <p>{{post?.datetimeCreated}}</p>
-<button>edit</button> | <button (click)="OnDelete()">delete</button>
+<button class="btn btn-success" (click)="OnEditPost()">Edit</button>
+ | 
+<button (click)="OnDelete()" class="btn btn-danger">Delete</button>
 <hr>
