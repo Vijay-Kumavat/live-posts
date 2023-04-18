@@ -11,6 +11,7 @@ export class HeaderComponent implements OnInit {
   constructor(private backEndService: BackEndService) { }
 
   ngOnInit(): void {
+    this.OnFetch();
   }
 
   OnSave(){
@@ -18,6 +19,7 @@ export class HeaderComponent implements OnInit {
   }
 
   OnFetch(){
+    console.log("OnFetch called!");
     this.backEndService.fetchData();
   }
 }

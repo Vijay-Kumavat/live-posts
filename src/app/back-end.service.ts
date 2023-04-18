@@ -41,6 +41,7 @@ export class BackEndService {
                 console.log(listOfPosts);
 
                 //step 2 send to post.service
+                this.postService.setPosts(listOfPosts);
             })
         )
         .subscribe();
