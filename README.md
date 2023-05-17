@@ -16,6 +16,12 @@ To get started with the UI Application created using Angular 15, follow these si
 - Home page of application
   
 ![Home page of application](https://github.com/Vijay-Kumavat/live-posts/blob/master/Images/Screenshot_1.png)
+  - Add functionality
+  
+![Home page of application](https://github.com/Vijay-Kumavat/live-posts/blob/master/Images/Screenshot_3.png)
+  - Edit functionality
+  
+![Home page of application](https://github.com/Vijay-Kumavat/live-posts/blob/master/Images/image.png)
   - Menu functionality
   
 ![Home page of application](https://github.com/Vijay-Kumavat/live-posts/blob/master/Images/Screenshot_2.png)
